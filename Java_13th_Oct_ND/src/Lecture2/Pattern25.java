@@ -7,10 +7,10 @@ public class Pattern25 {
 		int n  = 4;
 		int nst = 1;
 		int nsp = n-1;
-		
+		int val =1;
 		int row = 1;
 		 while(row<=n) {
-			 int val =1;
+			 
 			 int csp =0;
 			 while(csp<nsp) {
 				 System.out.print("  ");
