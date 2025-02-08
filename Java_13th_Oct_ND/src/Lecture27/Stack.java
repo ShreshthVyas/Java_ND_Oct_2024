@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Stack {
 	
-	private int arr[];
-	private int top =-1;
+	protected int arr[];
+	protected int top =-1;
 	
 	public Stack() {
 		arr= new int[5];

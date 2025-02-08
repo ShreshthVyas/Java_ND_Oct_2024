@@ -2,9 +2,9 @@ package Lecture27;
 
 public class Queue {
 	// All major function O(1)
-	private int []arr;
-	private int front =0;
-	private int size = 0;
+	protected int []arr;
+	protected int front =0;
+	protected int size = 0;
 	
 	public Queue() {
 		this.arr = new int[5];
