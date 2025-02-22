@@ -28,8 +28,8 @@ public class LLReverseRecursive {
 
 	public ListNode reverse(ListNode curr, ListNode prev) {
 		// TODO Auto-generated method stub
-		if(curr.next ==null){
-			return curr;
+		if(curr == null){
+			return prev;
 		}
 		ListNode temp = reverse(curr.next, curr);
 		curr.next = prev;
