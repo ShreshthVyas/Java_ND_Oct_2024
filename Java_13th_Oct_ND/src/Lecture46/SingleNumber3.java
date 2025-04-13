@@ -17,7 +17,7 @@ public class SingleNumber3 {
 		int mask =  ans & (~(ans-1));// guaranteed different single bit
 		int a =0;
 		for (int i : nums) {
-			if((i^mask) !=0) {
+			if((i&mask) !=0) {
 				a = a^i;
 			}
 		}
